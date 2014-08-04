@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Adjust the PIA.com credentials below
+vpnUser="x12345678"
+vpnPass="123456789"
+
 # Set array of PIA network locations
 piaNetworks=(
 	'us-midwest.privateinternetaccess.com' 
@@ -29,6 +33,6 @@ for network in ${piaNetworks}
 do
 	printf "Processing \"${network}\"... "
 	networkName=${network%%.*}
-	#osascript ./addVPN.scpt "${networkName}" "${network}" "vpnUser" "vpnPass" 
+	#osascript ./addVPN.scpt "${networkName}" "${network}" "${vpnUser}" "${vpnPass}" 
 	printf "done\n"
 done
