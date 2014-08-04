@@ -29,7 +29,7 @@ piaNetworks=(
 echo "Attempting to add '${#piaNetworks[@]}' PrivateInternetAccess VPNs"
 
 # For each network, execute addVPN.scpt
-for network in ${piaNetworks}
+for network in "${piaNetworks[@]}"
 do
 	printf "Processing \"${network}\"... "
 	networkName=${network%%.*}
