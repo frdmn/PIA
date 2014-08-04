@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Source settings.sh file
-. ./settings.sh
+# Source settings.conf file
+. ./settings.conf
 
 # Check for set settings
 if [[ -z "$vpnUser" ]]; then
