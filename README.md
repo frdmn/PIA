@@ -1,9 +1,9 @@
-PIA.sh
-======
+PIA
+===
 
 ![](http://up.frd.mn/h1im6.png)
 
-Simple Bash (and AppleScipt) scripts to bulk add all of PrivateInternetAccess' network locations / VPN servers in OS X's network preferences. Make sure you've read this file before start using it. This repository is tested on 10.9 Mavericks and 10.10 Yosemite.
+Simple Bash (and AppleScipt) scripts to bulk add all of PrivateInternetAccess' network locations / VPN servers in OS X's network preferences. Make sure you've read this file before start using it. Tested on 10.9 Mavericks and 10.10 Yosemite.
 
 ### Requirements
 
