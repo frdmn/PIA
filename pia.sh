@@ -33,6 +33,6 @@ for network in "${piaNetworks[@]}"
 do
 	printf "Processing \"${network}\"... "
 	networkName=${network%%.*}
-	#osascript ./addVPN.scpt "${networkName}" "${network}" "${vpnUser}" "${vpnPass}" 
+	osascript ./addVPN.scpt "PIA (${networkName})" "${network}" "${vpnUser}" "${vpnPass}" 
 	printf "done\n"
 done
