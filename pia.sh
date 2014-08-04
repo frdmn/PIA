@@ -15,13 +15,13 @@ if [[ -z "$vpnPass" ]]; then
 fi
 
 # Count VPN tunnels to add
-echo "Attempting to add '${#piaNetworks[@]}' PrivateInternetAccess VPNs"
+echo "Attempting to add '${#piaNetworks[@]}' PrivateInternetAccess VPNs:"
 
 # For each network, execute addVPN.scpt
 for network in "${piaNetworks[@]}"; do
 	printf "Processing \"${network}\"... "
 	networkName=${network%%.*}
-	osascript ./addVPN.scpt "PIA (${networkName})" "${network}" "${vpnUser}" "${vpnPass}" 
+	osascript bin/addVPN.scpt "PIA (${networkName})" "${network}" "${vpnUser}" "${vpnPass}" 
 	printf "done\n"
 done
 exit 0
