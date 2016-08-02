@@ -23,4 +23,4 @@ Simple Bash (and AppleScipt) scripts to bulk add all of PrivateInternetAccess' n
 
 ## License
 
-[WTFPL](LICENSE)
+[MIT](LICENSE)
