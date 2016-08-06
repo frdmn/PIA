@@ -19,7 +19,7 @@ Simple Bash (and AppleScipt) scripts to bulk add all of PrivateInternetAccess' n
 
 ## Version
 
-0.0.1
+0.0.2
 
 ## License
 
